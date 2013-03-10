@@ -1,0 +1,17 @@
+
+Java code to illustrate Spring Framework's extensible XML authoring configuration. 
+It has been built with Spring Framework version 3.1.0.M2. The code had been 
+organised into three independent Eclipse projects:
+
+1) springbean uses default spring bean configuration;
+
+2) custombean utilises Spring's extensible XML authoring to specify a custom bean 
+    definition;
+
+3) customerdomain makes further use of XML authoring to define a complete 
+    customised XML file.
+
+A couple of Java classes have been included with each project above to provide 
+configuration examples. These classes either sign a supplied data file or verify 
+a given signature for a data file. Please note these classes are for illustration 
+only and are not of production quality.

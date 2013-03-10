@@ -1,3 +1,6 @@
+// Copyright: whatsinthemicrowave.com
+// For illustration only
+
 package com.whatsinthemicrowave.springbean;
 
 import java.io.FileInputStream;

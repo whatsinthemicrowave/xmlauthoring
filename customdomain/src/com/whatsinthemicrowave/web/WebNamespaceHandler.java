@@ -1,3 +1,6 @@
+// Copyright: whatsinthemicrowave.com
+// For illustration only
+
 package com.whatsinthemicrowave.web;
 
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;

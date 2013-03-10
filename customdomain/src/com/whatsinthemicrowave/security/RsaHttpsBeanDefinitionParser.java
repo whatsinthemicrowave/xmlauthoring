@@ -1,3 +1,6 @@
+// Copyright: whatsinthemicrowave.com
+// For illustration only
+
 package com.whatsinthemicrowave.security;
 
 import java.util.List;

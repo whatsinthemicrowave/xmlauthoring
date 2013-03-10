@@ -1,3 +1,6 @@
+// Copyright: whatsinthemicrowave.com
+// For illustration only
+
 package com.whatsinthemicrowave.utils;
 
 import java.util.ArrayList;

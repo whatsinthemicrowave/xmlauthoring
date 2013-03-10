@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Copyright: whatsinthemicrowave.com  -->
+<!-- For illustration only  --> 
+
 <web:WebApp xmlns:web="http://whatsinthemicrowave.com/web"
                        xmlns:security="http://whatsinthemicrowave.com/security"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
