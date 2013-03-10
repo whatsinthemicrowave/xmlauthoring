@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+            xmlns:security="http://whatsinthemicrowave.com/security" 
+            xmlns:domain="http://whatsinthemicrowave.com/web" 
+            targetNamespace="http://whatsinthemicrowave.com/web" 
+            elementFormDefault="qualified">
+
+     <import namespace="http://whatsinthemicrowave.com/security" 
+             schemaLocation="classpath:/schema/security.xsd"/>
+ 
+    <element name="WebApp">
+        <complexType>
+            <sequence>
+                <element ref="security:RsaCredential" minOccurs="1"/>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

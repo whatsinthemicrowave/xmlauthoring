@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web:WebApp xmlns:web="http://whatsinthemicrowave.com/web"
+                       xmlns:security="http://whatsinthemicrowave.com/security"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://whatsinthemicrowave.com/web
+                                           classpath:/schema/web.xsd
+                                           http://whatsinthemicrowave.com/security
+                                           classpath:/schema/security.xsd">
+                       
+<security:RsaCredential id="credential" xsi:type="security:RsaHttps">
+    <security:Certificate>https://4c1358fb.servage-customer.net/whatsinthemicrowave.com.crt</security:Certificate>
+    <security:PrivateKey>https://4c1358fb.servage-customer.net/whatsinthemicrowave.com.key</security:PrivateKey>
+</security:RsaCredential>
+    
+</web:WebApp>
