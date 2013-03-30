@@ -16,4 +16,7 @@ examples, one signs a data file and the other verifies a given signature for a d
 These programs show that Spring beans have been created by custom XMLs through
 the getBean() method.
 
+A tutorial based on these examples can be found at
+http://whatsinthemicrowave.com/?p=50
+
 Please note these classes are for illustration only and are not of production quality.
