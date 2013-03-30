@@ -9,7 +9,7 @@
             targetNamespace="http://whatsinthemicrowave.com/web" 
             elementFormDefault="qualified">
 
-     <import namespace="http://whatsinthemicrowave.com/security" 
+    <import namespace="http://whatsinthemicrowave.com/security" 
              schemaLocation="classpath:/schema/security.xsd"/>
  
     <element name="WebApp">

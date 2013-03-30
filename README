@@ -11,7 +11,9 @@ organised into three independent Eclipse projects:
 3) customerdomain makes further use of XML authoring to define a complete 
     customised XML file.
 
-A couple of Java classes have been included with each project above to provide 
-configuration examples. These classes either sign a supplied data file or verify 
-a given signature for a data file. Please note these classes are for illustration 
-only and are not of production quality.
+A couple of Java programs have been included with each project above to provide 
+examples, one signs a data file and the other verifies a given signature for a data file. 
+These programs show that Spring beans have been created by custom XMLs through
+the getBean() method.
+
+Please note these classes are for illustration only and are not of production quality.

@@ -26,6 +26,7 @@ public class WebApplicationBeanDefinitionParser extends AbstractSingleBeanDefini
         return WebApplication.class; 
     }
 
+    @Override
     protected void doParse(Element element, ParserContext parserContext, BeanDefinitionBuilder bean) {
     	
         Map<QName, List<Element>> children = getChildElements(element);
@@ -35,6 +36,7 @@ public class WebApplicationBeanDefinitionParser extends AbstractSingleBeanDefini
         createBeanDefinitionFromElement(rsaElem, parserContext);
     }
 
+    @Override
     protected boolean shouldGenerateId() {
         return true;
     }
